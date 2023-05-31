@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
 </head>
 <body>
+
+
     <!-- ----------------Header Starts----------------------------------- -->
     <header>
         <div class="navbar">
@@ -25,14 +27,47 @@
               <li><a href="#productse">Earphones</a></li>
               <li><a href="#productsh">Headphones</a></li>
                 <li><a href="#productss">Speakers</a></li>
-                <div class="logo">
-                    <a href="#cart"><button><img src="./Images/Shopping Cart.png"></button></a>
-                    <a href="#contact"><button class="btn btn-outline-dark my-2 my-sm-0"><img src="./Images/Male User.png" alt=""></button></a>
+              </ul>
+              <div class="logo">
+
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" data-bs-toggle="tooltip" title="Cart"><img src="./images/Shopping Cart.png" alt=""></button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Cart</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    Cart Is Empty
+                  </div>
                 </div>
-            </ul>
+
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="tooltip" title="Logout">
+                    <img src="./images/Male User.png" alt="">
+                  </button>
+                  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Log Out</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Do you want to log out?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="button" class="btn"><a href="./login.html">Yes</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+               </div>
         </div>
+
     </header>
     <!-- ----------------Header Ends-------------------------------------- -->
+  
     
 <!-- ---------------------Home Starts------------------------------------- -->
     <section class="home" id="home">
@@ -47,7 +82,7 @@
               <div class="carousel-item active d-flex item1">
 
                 <div class="text">
-                    <img src="./images/SUM MER.png" alt="">
+                    <img src="/images/SUM MER.png" alt="">
                     <p>Saving Sale</p>
                     <button class="btn btn-outline-success">Buy Now</button>
                 </div>
@@ -96,6 +131,8 @@
     </section>
 
 <!-- ----------------------Home ends ----------------------------------------- -->
+
+
 <!-- -----------------------Crazy Deals Start  ---------------------------------->
 <section id="crazyDeals" class="crazyDeals">
 <div class="container-fluid">
@@ -204,6 +241,8 @@
 </div>
 </section>
 <!-- -----------------------Crazy Deals Ends  ---------------------------------->
+
+
 <!-- ------------------------DOTD starts------------------------------------- -->
 <section id="DOTD" class="DOTD">
   <div class="container-fluid">
@@ -218,6 +257,8 @@
   </div>
 </section>
 <!-- ------------------------DOTD ends------------------------------------- -->
+
+
 <!-- ------------------------Earphones starts------------------------------------- -->
 <section id="earphones" class="earphones">
   <div class="container-fluid">
@@ -329,9 +370,313 @@
   </section>
 <!-- ------------------------Earphones ends------------------------------------- -->
 
+<!-- ------------------------Banner starts------------------------------------- -->
+<section id="banner" class="banner">
+  <div class="container">
+    <div class="item">
+      <img src="./images/return.png" alt="">
+      <p><span>7 days</span> return</p>
+    </div>
+    <div class="item">
+      <img src="./images/warrenty.png" alt="">
+      <p><span>1 Year</span> Warrenty</p>
+    </div>
+    <div class="item">
+      <img src="./images/shiping.png" alt="">
+      <p><span>Free</span> Shipping</p>
+    </div>
+    <div class="item">
+      <img src="./images/gst.png" alt="">
+      <p><span>GST</span> Billing</p>
+    </div>
+  </div>
+</section>
+<!-- ------------------------Banner Ends------------------------------------- -->
+
+
+<!-- ------------------------Sound bars Start------------------------------------- -->
+
+<section id="crazyDeals" class="crazyDeals">
+  <div class="container-fluid">
+    <div class="title">
+      <h1>SOUNDBARS</h1>
+    </div>
+    <div class="slider">
+              <div class="owl-carousel">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/item1.png" alt="">
+                    </div>
+  
+                    <div class="text">
+                      <div class="heading">
+                        <h1>Soundbar1</h1>
+                        <h1>₹1299</h1>
+                      </div>
+                      <div class="details">
+                        <ul>
+                          <li>24 Hrs Playback</li>
+                          <li>5 Watts</li>
+                        </ul>
+                      </div>
+  
+                    </div>
+                    <div class="button">
+                      <button class="btn">Add To Cart</button>
+                    </div>
+                  </div>
+  
+                  
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/item3.avif" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="heading">
+                        <h1>Soundbar1</h1>
+                        <h1>₹1299</h1>
+                      </div>
+                      <div class="details">
+                        <ul>
+                          <li>24 Hrs Playback</li>
+                          <li>5 Watts</li>
+                        </ul>
+                      </div>
+  
+                    </div>
+                    <div class="button">
+                      <button class="btn">Add To Cart</button>
+                    </div>
+                  </div>
+  
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/item2.png" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="heading">
+                        <h1>Soundbar1</h1>
+                        <h1>₹1299</h1>
+                      </div>
+                      <div class="details">
+                        <ul>
+                          <li>24 Hrs Playback</li>
+                          <li>5 Watts</li>
+                        </ul>
+                      </div>
+  
+                    </div>
+                    <div class="button">
+                      <button class="btn">Add To Cart</button>
+                    </div>
+                  </div>
+  
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/item4.avif" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="heading">
+                        <h1>Soundbar1</h1>
+                        <h1>₹1299</h1>
+                      </div>
+                      <div class="details">
+                        <ul>
+                          <li>24 Hrs Playback</li>
+                          <li>5 Watts</li>
+                        </ul>
+                      </div>
+  
+                    </div>
+                    <div class="button">
+                      <button class="btn">Add To Cart</button>
+                    </div>
+                  </div>
+  
+  
+  
+  
+  
+  
+              </div>
+          </div>
+  </div>
+  </section>
+
+<!-- ------------------------Sound bars Ends------------------------------------- -->
+
+
+<!-- ------------------------Headphones Start------------------------------------- -->
+<section id="crazyDeals" class="crazyDeals">
+  <div class="container-fluid">
+    <div class="title">
+      <h1>HEADPHONES</h1>
+    </div>
+    <div class="slider">
+              <div class="owl-carousel">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/item1.png" alt="">
+                    </div>
+  
+                    <div class="text">
+                      <div class="heading">
+                        <h1>Soundbar1</h1>
+                        <h1>₹1299</h1>
+                      </div>
+                      <div class="details">
+                        <ul>
+                          <li>24 Hrs Playback</li>
+                          <li>5 Watts</li>
+                        </ul>
+                      </div>
+  
+                    </div>
+                    <div class="button">
+                      <button class="btn">Add To Cart</button>
+                    </div>
+                  </div>
+  
+                  
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/item3.avif" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="heading">
+                        <h1>Soundbar1</h1>
+                        <h1>₹1299</h1>
+                      </div>
+                      <div class="details">
+                        <ul>
+                          <li>24 Hrs Playback</li>
+                          <li>5 Watts</li>
+                        </ul>
+                      </div>
+  
+                    </div>
+                    <div class="button">
+                      <button class="btn">Add To Cart</button>
+                    </div>
+                  </div>
+  
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/item2.png" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="heading">
+                        <h1>Soundbar1</h1>
+                        <h1>₹1299</h1>
+                      </div>
+                      <div class="details">
+                        <ul>
+                          <li>24 Hrs Playback</li>
+                          <li>5 Watts</li>
+                        </ul>
+                      </div>
+  
+                    </div>
+                    <div class="button">
+                      <button class="btn">Add To Cart</button>
+                    </div>
+                  </div>
+  
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/item4.avif" alt="">
+                    </div>
+                    <div class="text">
+                      <div class="heading">
+                        <h1>Soundbar1</h1>
+                        <h1>₹1299</h1>
+                      </div>
+                      <div class="details">
+                        <ul>
+                          <li>24 Hrs Playback</li>
+                          <li>5 Watts</li>
+                        </ul>
+                      </div>
+  
+                    </div>
+                    <div class="button">
+                      <button class="btn">Add To Cart</button>
+                    </div>
+                  </div>
+  
+  
+  
+  
+  
+  
+              </div>
+          </div>
+  </div>
+  </section>
+<!-- ------------------------Headphones Ends------------------------------------- -->
+
+
+<!-- ------------------------Tribe Start------------------------------------- -->
+<section id="tribe" class="tribe">
+  <div class="container">
+    
+  </div>
+</section>
+<!-- ------------------------Tribe Ends------------------------------------- -->
+
+<!-- ------------------------FAQ starts------------------------------------- -->
+<section id="faq" class="faq">
+  <div class="container-fluid">
+    <div class="title">
+      <h1>FAQs</h1>
+      <p>Most Asked Questions</p>
+      </div>
+  <div class="accordion accordion-flush rounded" id="accordionFlushExample"> 
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          How many days does it take  to get the product delivered?
+          </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          How many days does it take  to get the product delivered?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          How many days does it take  to get the product delivered?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- ------------------------FAQ ends------------------------------------- -->
+
+
+
+
+
 <!-- --------------------------------------- Script--------------------------------------------- -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script> 

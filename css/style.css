@@ -1,0 +1,388 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono:wght@500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+/* -------------------------------Navbar starts--------------------------- */
+header{
+    background-color: #172347;
+    padding-left: 29px;
+    padding-top: 24px;
+    /* position: fixed; */
+    /* width: 99%; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 1rem; */
+}
+span{
+    color: #FFFFFF;
+    /* display: flex; */
+    /* font-style: normal; */
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    cursor: pointer;
+    /* padding: 0rem 2rem; */
+}
+a {
+    text-decoration: none;
+
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    /* margin-left: 15rem; */
+}
+.nav-links li{
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 30px;
+    /* line-height: 45px; */
+    /* display: inline-block; */
+    padding: 0px 20px;
+    
+
+}
+.nav-links a{
+    color: #86E165;
+}
+.nav-links li a:hover{
+    color: rgb(0, 107, 107);
+}
+.logo{
+    padding-left: 10rem;
+}
+.navbar button{
+    background-color: black;
+}
+.navbar button img{
+    width: 45px;
+    height: 30px;
+}
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    }
+/* ---------------------Navbar ends----------------------------------- */
+/* ---------------------Home Start----------------------------------- */
+
+/* .home img{
+    height: 0rem;
+} */
+.home .item1{
+    /* display: flex; */
+    height: 570px;
+    /* background-image: url(/images/Home1.png); */
+    background-color: #172347;
+}
+.home .item1 .text{
+    /* color: #FFFFFF; */
+    align-content: center;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.home .item1 .text img{
+    width: 270px;
+    height: 250px;
+}
+.home .item1 .text p{
+    font-style: italic;
+    /* font-weight: 600; */
+    font-size: 40px;
+    /* line-height: 162px; */
+    text-align: center;
+    color: #86E165;
+}
+.item1 button{
+    /* text-align: center; */
+    /* margin-left: 50px; */
+    /* align-self: center; */
+}
+.home .item1 .text .btn{
+    color: #86E165;
+    /* margin-top: 28px; */
+    width: 100%;
+    /* font-weight: 500; */
+    font-size: 20px;
+    border: solid #86E165 ;
+    border-radius: 120rem;
+}
+.home .item1 .image{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.home .item1 .image img{
+    width: 870px;
+    height: 500px;
+}
+
+.home .item2{
+    height: 570px;
+    background-image: url(/images/Home2.png);
+}
+.home .item2 .text{
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+.home .item2 .text p{
+    font-size: 30px;
+    /* font-weight: 800; */
+}
+.home .item2 .text h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.home .item2 .text .btn{
+    color: #86E165;
+    margin-top: 28px;
+    width: 165px;
+    /* font-weight: 500; */
+    font-size: 20px;
+    border: solid #86E165 ;
+    border-radius: 120rem;
+}
+
+
+.home .item3{
+    height: 570px;
+    background-image: url(/images/Home3.png);
+}
+
+
+/* ------------------------------------Home Ends----------------------------------------- */
+/* ------------------------------------Crazy Deals Starts ----------------------------------------- */
+.crazyDeals .slider{
+    padding-left: 1px;
+}
+.crazyDeals .owl-stage-outer{
+    height: 600px;
+}
+.crazyDeals .title h1{
+    color: #172347;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    
+    /* line-height: 123px; */
+}
+.crazyDeals .card{
+    margin-left: 60px;
+    height: 550px;
+    width: 361px;
+    background: #EEECFE;
+    border-radius: 10px;
+    box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.25);
+}
+.crazyDeals .card .image{
+    display: flex;
+    justify-content: center;
+}
+.crazyDeals .card .image img{
+    margin-top: 20px; 
+    height: 300px;
+    width: 289px;
+    /* background: #EEECFE;
+    border-radius: 10px; */
+}
+.crazyDeals .card .text{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 11px;
+}
+.crazyDeals .card .text .heading{
+    margin-top: 25px;
+}
+.crazyDeals .card .text .heading h1{
+    color: rgba(0, 0, 0, 0.89);
+    /* margin-top: 26px; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+.crazyDeals .card .text .details{
+    color: rgba(0, 0, 0, 0.77);
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.crazyDeals .card .button{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.crazyDeals .card .button .btn{
+    color: #FFFFFF;
+    background-color: #172347;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* margin-bottom: 25px; */
+    padding: 9px 75px 9px 75px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+
+
+/* ------------------------------------Crazy Deals Ends----------------------------------------- */
+/* ------------------------------------ DOTD STARTS--------------------------------------------- */
+.DOTD .container-fluid{
+    height: 300px;
+}
+.DOTD .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    margin-top: 130px;
+    margin-bottom: 200px;
+    /* width: 100%; */
+    border-radius: 10px;
+    background-color: #172347;
+}
+
+.DOTD .text{
+    color: #DCD8FE;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* width: 1000px; */
+    /* height: 204px; */
+    padding-left: 150px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    /* line-height: 102px; */
+    
+}
+
+.DOTD .image{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px; */
+    /* margin-left: 500px; */
+    /* margin-right: 210px; */
+    background-color: #FFFFFF;
+    /* transform: translateY(-4rem);  */
+    /* border: #172347 solid 2px; */
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+}
+.DOTD img{
+    /* margin-top: 100px; */
+    height: 250px;
+    width: 250px;
+}
+/* ------------------------------------ DOTD ENDS--------------------------------------------- */
+/* ------------------------------------ Earphones Start--------------------------------------------- */
+.earphones .slider{
+    padding-left: 1px;
+}
+.earphones .owl-stage-outer{
+    height: 600px;
+}
+.earphones .title{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.earphones .title h1{
+    color: #172347;
+    
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    
+    /* line-height: 123px; */
+}
+.earphones .title p{
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* line-height: 58px; */
+    /* text-align: justify; */
+}
+.earphones .card{
+    margin-left: 60px;
+    height: 550px;
+    width: 361px;
+    background: #EEECFE;
+    border-radius: 10px;
+    box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.25);
+}
+.earphones .card .image{
+    display: flex;
+    justify-content: center;
+}
+.earphones .card .image img{
+    margin-top: 20px; 
+    height: 300px;
+    width: 289px;
+    /* background: #EEECFE;
+    border-radius: 10px; */
+}
+.earphones .card .text{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 11px;
+}
+.earphones .card .text .heading{
+    margin-top: 25px;
+}
+.earphones .card .text .heading h1{
+    color: rgba(0, 0, 0, 0.89);
+    /* margin-top: 26px; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+.earphones .card .text .details{
+    color: rgba(0, 0, 0, 0.77);
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.earphones .card .button{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.earphones .card .button .btn{
+    color: #FFFFFF;
+    background-color: #172347;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* margin-bottom: 25px; */
+    padding: 9px 75px 9px 75px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+/* ------------------------------------ Earphones ENDS--------------------------------------------- */
